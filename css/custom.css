@@ -331,6 +331,7 @@ a:focus{
 .navbar-brand img{
 	filter: brightness(0) invert(1);
 	transition: all 0.3s;
+	height: 56px;
 }
 
 .navbar-brand h1{
@@ -481,7 +482,9 @@ a:focus{
 	z-index: 1;
 	text-align: center;
 }
-
+.header-banner img{
+	height: 150px;
+}
 .header-banner p{
 	font-family: 'NoemieScript';
 	font-size: 32px;
